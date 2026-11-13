@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aperture-visual-intelligence"
+version = "0.1.0"
+description = "APERTURE-owned integration contracts for visual and geospatial intelligence tools"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+include = ["aperture*"]
